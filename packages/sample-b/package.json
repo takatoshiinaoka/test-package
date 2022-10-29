@@ -1,0 +1,22 @@
+{
+  "name": "@takatoshiinaoka/sample-b",
+  "version": "1.0.0",
+  "description": "sample b package",
+  "main": "src/index.js",
+  "files": [
+    "src/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/takatoshiinaoka/test-package.git",
+    "directory": "packages/sample-b"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "takatoshiinaoka",
+  "license": "ISC"
+}
